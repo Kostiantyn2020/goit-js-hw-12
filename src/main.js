@@ -1,4 +1,4 @@
-import { fetchImages } from './js/pixabay-api.js';
+/*import { fetchImages } from './js/pixabay-api.js';
 import {
   renderImageCards,
   clearGallery,
@@ -94,9 +94,9 @@ loadMoreBtn.addEventListener('click', async () => {
   } finally {
     loader.style.display = 'none';
   }
-});
+});*/
 
-/*import { fetchImages } from './js/pixabay-api.js';
+import { fetchImages } from './js/pixabay-api.js';
 import {
   renderImageCards,
   clearGallery,
@@ -211,4 +211,3 @@ loadMoreBtn.addEventListener('click', async () => {
     loader.style.display = 'none';
   }
 });
-*/
