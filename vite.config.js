@@ -1,4 +1,4 @@
-/*import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
@@ -27,15 +27,4 @@ export default defineConfig(({ command }) => {
     },
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
-});*/
-
-
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  base: '/goit-js-hw-12/', // Укажите правильный базовый путь для GitHub Pages
-  build: {
-    outDir: 'dist',
-  },
 });
-
