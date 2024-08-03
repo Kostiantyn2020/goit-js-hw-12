@@ -96,22 +96,18 @@ button[type="submit"]:hover,
 }
 
 .photo-card {
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: calc((100% - 30px) / 4);
+  border: 1px solid #ddd;
+  border-radius: 5px;
   overflow: hidden;
-  width: 200px;
 }
 
 .photo-card img {
+  display: block;
   width: 100%;
   height: auto;
 }
 
 .photo-card .info {
   padding: 10px;
-  text-align: left;
-}
-
-.photo-card .info p {
-  margin: 5px 0;
 }
