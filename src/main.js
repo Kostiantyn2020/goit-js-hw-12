@@ -1,4 +1,4 @@
-/*import { fetchImages } from './js/pixabay-api.js';
+import { fetchImages } from './js/pixabay-api.js';
 import {
   renderImageCards,
   clearGallery,
@@ -43,7 +43,7 @@ form.addEventListener('submit', async event => {
       const markup = renderImageCards(data.hits);
       appendImagesToGallery(markup);
       lightbox.refresh();
-      form.elements.searchQuery.value = ''; // Очистка строки поиска
+      form.elements.searchQuery.value = '';
       if (data.totalHits > page * 15) {
         loadMoreBtn.style.display = 'block';
       }
@@ -79,7 +79,6 @@ loadMoreBtn.addEventListener('click', async () => {
       loadMoreBtn.style.display = 'block';
     }
 
-    // Прокрутим страницу вниз
     const { height: cardHeight } = document
       .querySelector('.gallery')
       .firstElementChild.getBoundingClientRect();
@@ -95,9 +94,9 @@ loadMoreBtn.addEventListener('click', async () => {
   } finally {
     loader.style.display = 'none';
   }
-});*/
+});
 
-import { fetchImages } from './js/pixabay-api.js';
+/*import { fetchImages } from './js/pixabay-api.js';
 import {
   renderImageCards,
   clearGallery,
@@ -212,3 +211,4 @@ loadMoreBtn.addEventListener('click', async () => {
     loader.style.display = 'none';
   }
 });
+*/
